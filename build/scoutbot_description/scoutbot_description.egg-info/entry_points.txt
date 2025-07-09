@@ -1,0 +1,3 @@
+[console_scripts]
+joint_sim = scoutbot_description.joint_sim:main
+

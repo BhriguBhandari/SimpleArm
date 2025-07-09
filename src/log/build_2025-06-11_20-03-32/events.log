@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (-) JobUnselected: {'identifier': 'arm_controller'}
+[0.000270] (-) JobUnselected: {'identifier': 'scoutbot_description'}
+[0.000288] (-) JobUnselected: {'identifier': 'scoutbot_sim'}
+[0.000302] (-) EventReactorShutdown: {}

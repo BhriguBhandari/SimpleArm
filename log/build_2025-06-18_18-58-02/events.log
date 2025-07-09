@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (-) JobUnselected: {'identifier': 'arm_controller'}
+[0.000250] (-) JobUnselected: {'identifier': 'scoutbot_sim'}
+[0.000380] (scoutbot_description) JobQueued: {'identifier': 'scoutbot_description', 'dependencies': OrderedDict()}
+[0.000410] (scoutbot_description) JobStarted: {'identifier': 'scoutbot_description'}
+[0.096796] (-) TimerEvent: {}
+[0.201379] (-) TimerEvent: {}
+[0.302130] (-) TimerEvent: {}
+[0.409054] (-) TimerEvent: {}
+[0.511983] (-) TimerEvent: {}
+[0.614215] (-) TimerEvent: {}
+[0.714754] (-) TimerEvent: {}
+[0.815434] (-) TimerEvent: {}
+[0.918536] (-) TimerEvent: {}
+[1.020560] (-) TimerEvent: {}
+[1.122251] (-) TimerEvent: {}
+[1.223408] (-) TimerEvent: {}
+[1.327184] (-) TimerEvent: {}
+[1.430325] (-) TimerEvent: {}
+[1.536327] (-) TimerEvent: {}
+[1.640644] (-) TimerEvent: {}
+[1.743823] (-) TimerEvent: {}
+[1.853263] (-) TimerEvent: {}
+[1.962286] (-) TimerEvent: {}
+[2.070844] (-) TimerEvent: {}
+[2.177710] (-) TimerEvent: {}
+[2.280634] (-) TimerEvent: {}
+[2.384944] (-) TimerEvent: {}
+[2.488770] (-) TimerEvent: {}
+[2.589273] (-) TimerEvent: {}
+[2.694251] (-) TimerEvent: {}
+[2.803805] (-) TimerEvent: {}
+[2.906322] (-) TimerEvent: {}
+[3.012986] (-) TimerEvent: {}
+[3.119536] (-) TimerEvent: {}
+[3.228354] (-) TimerEvent: {}
+[3.333561] (-) TimerEvent: {}
+[3.434516] (-) TimerEvent: {}
+[3.551957] (-) TimerEvent: {}
+[3.666383] (-) TimerEvent: {}
+[3.778618] (-) TimerEvent: {}
+[3.888020] (-) TimerEvent: {}
+[3.991114] (-) TimerEvent: {}
+[4.093412] (-) TimerEvent: {}
+[4.212899] (-) TimerEvent: {}
+[4.321842] (-) TimerEvent: {}
+[4.424171] (-) TimerEvent: {}
+[4.533619] (-) TimerEvent: {}
+[4.634696] (-) TimerEvent: {}
+[4.736739] (-) TimerEvent: {}
+[4.838591] (-) TimerEvent: {}
+[4.939472] (-) TimerEvent: {}
+[5.040247] (-) TimerEvent: {}
+[5.142056] (-) TimerEvent: {}
+[5.247384] (-) TimerEvent: {}
+[5.348134] (-) TimerEvent: {}
+[5.448656] (-) TimerEvent: {}
+[5.549126] (-) TimerEvent: {}
+[5.649561] (-) TimerEvent: {}
+[5.751314] (-) TimerEvent: {}
+[5.853064] (-) TimerEvent: {}
+[5.955673] (-) TimerEvent: {}
+[6.057139] (-) TimerEvent: {}
+[6.161645] (-) TimerEvent: {}
+[6.278774] (-) TimerEvent: {}
+[6.380212] (-) TimerEvent: {}
+[6.481737] (-) TimerEvent: {}
+[6.582732] (-) TimerEvent: {}
+[6.688490] (-) TimerEvent: {}
+[6.800173] (-) TimerEvent: {}
+[6.901702] (-) TimerEvent: {}
+[7.002374] (-) TimerEvent: {}
+[7.106569] (-) TimerEvent: {}
+[7.209910] (-) TimerEvent: {}
+[7.317653] (-) TimerEvent: {}
+[7.418230] (-) TimerEvent: {}
+[7.494561] (scoutbot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bbhanda/scoutbot_ws/build/scoutbot_description/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/bbhanda/scoutbot_ws/build/scoutbot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bbhanda', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bbhanda', 'OLDPWD': '/home/bbhanda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2683', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bbhanda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bbhanda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/2654,unix/Ubuntu22:/tmp/.ICE-unix/2654', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5f47b273_dce5_4b89_8a10_7fe4611b81b7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4ZJF82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bbhanda/scoutbot_ws/build/scoutbot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.526179] (-) TimerEvent: {}
+[7.631792] (-) TimerEvent: {}
+[7.738210] (-) TimerEvent: {}
+[7.852287] (-) TimerEvent: {}
+[7.952760] (-) TimerEvent: {}
+[7.974353] (scoutbot_description) StdoutLine: {'line': b'running develop\n'}
+[8.052916] (-) TimerEvent: {}
+[8.156965] (-) TimerEvent: {}
+[8.248308] (scoutbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[8.248769] (scoutbot_description) StdoutLine: {'line': b'writing scoutbot_description.egg-info/PKG-INFO\n'}
+[8.249115] (scoutbot_description) StdoutLine: {'line': b'writing dependency_links to scoutbot_description.egg-info/dependency_links.txt\n'}
+[8.249544] (scoutbot_description) StdoutLine: {'line': b'writing entry points to scoutbot_description.egg-info/entry_points.txt\n'}
+[8.250060] (scoutbot_description) StdoutLine: {'line': b'writing requirements to scoutbot_description.egg-info/requires.txt\n'}
+[8.250433] (scoutbot_description) StdoutLine: {'line': b'writing top-level names to scoutbot_description.egg-info/top_level.txt\n'}
+[8.254176] (scoutbot_description) StdoutLine: {'line': b"reading manifest file 'scoutbot_description.egg-info/SOURCES.txt'\n"}
+[8.256036] (scoutbot_description) StdoutLine: {'line': b"writing manifest file 'scoutbot_description.egg-info/SOURCES.txt'\n"}
+[8.257312] (-) TimerEvent: {}
+[8.257928] (scoutbot_description) StdoutLine: {'line': b'running build_ext\n'}
+[8.258180] (scoutbot_description) StdoutLine: {'line': b'Creating /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot-description.egg-link (link to .)\n'}
+[8.258733] (scoutbot_description) StdoutLine: {'line': b'Installing joint_sim script to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/scoutbot_description\n'}
+[8.259867] (scoutbot_description) StdoutLine: {'line': b'\n'}
+[8.260245] (scoutbot_description) StdoutLine: {'line': b'Installed /home/bbhanda/scoutbot_ws/build/scoutbot_description\n'}
+[8.260302] (scoutbot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[8.260354] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/resource/scoutbot_description -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/ament_index/resource_index/packages\n'}
+[8.260407] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/package.xml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description\n'}
+[8.260462] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/launch/display.launch.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/launch\n'}
+[8.260688] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/urdf/arm.urdf.xacro -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/urdf\n'}
+[8.260741] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Joint_1.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.260788] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Base_Cover.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.260834] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Base.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.260880] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_4-Joint_5.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.260925] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_2-Joint_3.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.260971] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_1-Joint_2.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.261020] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_3-Joint_4.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.261066] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_5-Joint_6.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes\n'}
+[8.261111] (scoutbot_description) StdoutLine: {'line': b'symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/config/controller.yaml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/config\n'}
+[8.315900] (scoutbot_description) CommandEnded: {'returncode': 0}
+[8.357851] (-) TimerEvent: {}
+[8.418641] (scoutbot_description) JobEnded: {'identifier': 'scoutbot_description', 'rc': 0}
+[8.419558] (-) EventReactorShutdown: {}

@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.001015] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict()}
+[0.001717] (scoutbot_description) JobQueued: {'identifier': 'scoutbot_description', 'dependencies': OrderedDict()}
+[0.001849] (scoutbot_sim) JobQueued: {'identifier': 'scoutbot_sim', 'dependencies': OrderedDict()}
+[0.001932] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.034977] (scoutbot_description) JobStarted: {'identifier': 'scoutbot_description'}
+[0.064868] (scoutbot_sim) JobStarted: {'identifier': 'scoutbot_sim'}
+[0.100098] (-) TimerEvent: {}
+[0.201758] (-) TimerEvent: {}
+[0.303169] (-) TimerEvent: {}
+[0.403782] (-) TimerEvent: {}
+[0.506901] (-) TimerEvent: {}
+[0.612043] (-) TimerEvent: {}
+[0.689827] (scoutbot_sim) JobProgress: {'identifier': 'scoutbot_sim', 'progress': 'cmake'}
+[0.691187] (scoutbot_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/bbhanda/scoutbot_ws/src/scoutbot_sim', '-DCMAKE_INSTALL_PREFIX=/home/bbhanda/scoutbot_ws/install/scoutbot_sim'], 'cwd': '/home/bbhanda/scoutbot_ws/build/scoutbot_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bbhanda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bbhanda'), ('OLDPWD', '/home/bbhanda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2674'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bbhanda/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bbhanda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bbhanda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2644,unix/Ubuntu22:/tmp/.ICE-unix/2644'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0382ac8_478e_4b16_8c34_c306e935cc0b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OK2982'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bbhanda/scoutbot_ws/build/scoutbot_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bbhanda/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble')]), 'shell': False}
+[0.725349] (-) TimerEvent: {}
+[0.825736] (-) TimerEvent: {}
+[0.926090] (-) TimerEvent: {}
+[1.027330] (-) TimerEvent: {}
+[1.128285] (-) TimerEvent: {}
+[1.195927] (arm_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_controller', 'build', '--build-base', '/home/bbhanda/scoutbot_ws/build/arm_controller/build', 'install', '--record', '/home/bbhanda/scoutbot_ws/build/arm_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bbhanda/scoutbot_ws/src/arm_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bbhanda', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bbhanda', 'OLDPWD': '/home/bbhanda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2674', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bbhanda/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bbhanda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bbhanda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/2644,unix/Ubuntu22:/tmp/.ICE-unix/2644', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0382ac8_478e_4b16_8c34_c306e935cc0b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OK2982', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bbhanda/install/scoutbot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bbhanda/scoutbot_ws/build/arm_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bbhanda/scoutbot_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages:/home/bbhanda/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.228536] (-) TimerEvent: {}
+[1.321988] (scoutbot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/scoutbot_description', 'build', '--build-base', '/home/bbhanda/scoutbot_ws/build/scoutbot_description/build', 'install', '--record', '/home/bbhanda/scoutbot_ws/build/scoutbot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bbhanda/scoutbot_ws/src/scoutbot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bbhanda', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bbhanda', 'OLDPWD': '/home/bbhanda', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2674', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bbhanda/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bbhanda', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bbhanda', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/2644,unix/Ubuntu22:/tmp/.ICE-unix/2644', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0382ac8_478e_4b16_8c34_c306e935cc0b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OK2982', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bbhanda/install/scoutbot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bbhanda/scoutbot_ws/build/scoutbot_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:/home/bbhanda/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.330500] (-) TimerEvent: {}
+[1.432255] (-) TimerEvent: {}
+[1.515433] (arm_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.516029] (arm_controller) StdoutLine: {'line': b'creating ../../build/arm_controller/arm_controller.egg-info\n'}
+[1.516122] (arm_controller) StdoutLine: {'line': b'writing ../../build/arm_controller/arm_controller.egg-info/PKG-INFO\n'}
+[1.516178] (arm_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_controller/arm_controller.egg-info/dependency_links.txt\n'}
+[1.516230] (arm_controller) StdoutLine: {'line': b'writing entry points to ../../build/arm_controller/arm_controller.egg-info/entry_points.txt\n'}
+[1.516716] (arm_controller) StdoutLine: {'line': b'writing requirements to ../../build/arm_controller/arm_controller.egg-info/requires.txt\n'}
+[1.516801] (arm_controller) StdoutLine: {'line': b'writing top-level names to ../../build/arm_controller/arm_controller.egg-info/top_level.txt\n'}
+[1.516854] (arm_controller) StdoutLine: {'line': b"writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[1.518834] (arm_controller) StdoutLine: {'line': b"reading manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[1.519468] (arm_controller) StdoutLine: {'line': b"writing manifest file '../../build/arm_controller/arm_controller.egg-info/SOURCES.txt'\n"}
+[1.519571] (arm_controller) StdoutLine: {'line': b'running build\n'}
+[1.519629] (arm_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.519683] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/build/arm_controller/build\n'}
+[1.519732] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib\n'}
+[1.520040] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller\n'}
+[1.520126] (arm_controller) StdoutLine: {'line': b'copying arm_controller/joint_subscriber.py -> /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller\n'}
+[1.520178] (arm_controller) StdoutLine: {'line': b'copying arm_controller/__init__.py -> /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller\n'}
+[1.520226] (arm_controller) StdoutLine: {'line': b'copying arm_controller/joint_publisher.py -> /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller\n'}
+[1.520472] (arm_controller) StdoutLine: {'line': b'running install\n'}
+[1.520950] (arm_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.521955] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller\n'}
+[1.522044] (arm_controller) StdoutLine: {'line': b'copying /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller/joint_subscriber.py -> /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller\n'}
+[1.522220] (arm_controller) StdoutLine: {'line': b'copying /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller/__init__.py -> /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller\n'}
+[1.522295] (arm_controller) StdoutLine: {'line': b'copying /home/bbhanda/scoutbot_ws/build/arm_controller/build/lib/arm_controller/joint_publisher.py -> /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller\n'}
+[1.522913] (arm_controller) StdoutLine: {'line': b'byte-compiling /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller/joint_subscriber.py to joint_subscriber.cpython-310.pyc\n'}
+[1.527135] (arm_controller) StdoutLine: {'line': b'byte-compiling /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[1.527815] (arm_controller) StdoutLine: {'line': b'byte-compiling /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller/joint_publisher.py to joint_publisher.cpython-310.pyc\n'}
+[1.528052] (arm_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.528247] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/install/arm_controller/share/ament_index\n'}
+[1.528322] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/install/arm_controller/share/ament_index/resource_index\n'}
+[1.528373] (arm_controller) StdoutLine: {'line': b'creating /home/bbhanda/scoutbot_ws/install/arm_controller/share/ament_index/resource_index/packages\n'}
+[1.528420] (arm_controller) StdoutLine: {'line': b'copying resource/arm_controller -> /home/bbhanda/scoutbot_ws/install/arm_controller/share/ament_index/resource_index/packages\n'}
+[1.528467] (arm_controller) StdoutLine: {'line': b'copying package.xml -> /home/bbhanda/scoutbot_ws/install/arm_controller/share/arm_controller\n'}
+[1.528513] (arm_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.530464] (arm_controller) StdoutLine: {'line': b'Copying ../../build/arm_controller/arm_controller.egg-info to /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm_controller-0.0.0-py3.10.egg-info\n'}
+[1.531805] (arm_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.532386] (-) TimerEvent: {}
+[1.556873] (arm_controller) StdoutLine: {'line': b'Installing joint_publisher script to /home/bbhanda/scoutbot_ws/install/arm_controller/lib/arm_controller\n'}
+[1.557496] (arm_controller) StdoutLine: {'line': b'Installing joint_subscriber script to /home/bbhanda/scoutbot_ws/install/arm_controller/lib/arm_controller\n'}
+[1.557754] (arm_controller) StdoutLine: {'line': b"writing list of installed files to '/home/bbhanda/scoutbot_ws/build/arm_controller/install.log'\n"}
+[1.601844] (arm_controller) CommandEnded: {'returncode': 0}
+[1.615084] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 0}
+[1.633521] (-) TimerEvent: {}
+[1.693930] (scoutbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.694093] (scoutbot_description) StdoutLine: {'line': b'writing ../../build/scoutbot_description/scoutbot_description.egg-info/PKG-INFO\n'}
+[1.694752] (scoutbot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/scoutbot_description/scoutbot_description.egg-info/dependency_links.txt\n'}
+[1.695326] (scoutbot_description) StdoutLine: {'line': b'writing entry points to ../../build/scoutbot_description/scoutbot_description.egg-info/entry_points.txt\n'}
+[1.696172] (scoutbot_description) StdoutLine: {'line': b'writing requirements to ../../build/scoutbot_description/scoutbot_description.egg-info/requires.txt\n'}
+[1.696967] (scoutbot_description) StdoutLine: {'line': b'writing top-level names to ../../build/scoutbot_description/scoutbot_description.egg-info/top_level.txt\n'}
+[1.699390] (scoutbot_description) StdoutLine: {'line': b"reading manifest file '../../build/scoutbot_description/scoutbot_description.egg-info/SOURCES.txt'\n"}
+[1.715790] (scoutbot_description) StdoutLine: {'line': b"writing manifest file '../../build/scoutbot_description/scoutbot_description.egg-info/SOURCES.txt'\n"}
+[1.717111] (scoutbot_description) StdoutLine: {'line': b'running build\n'}
+[1.717281] (scoutbot_description) StdoutLine: {'line': b'running build_py\n'}
+[1.717464] (scoutbot_description) StdoutLine: {'line': b'running install\n'}
+[1.717943] (scoutbot_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.719301] (scoutbot_description) StdoutLine: {'line': b'running install_data\n'}
+[1.719712] (scoutbot_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/launch\n'}
+[1.719782] (scoutbot_description) StdoutLine: {'line': b'copying urdf/arm.urdf.xacro -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/urdf\n'}
+[1.720342] (scoutbot_description) StdoutLine: {'line': b'copying config/controller.yaml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/config\n'}
+[1.720738] (scoutbot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.722765] (scoutbot_description) StdoutLine: {'line': b"removing '/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.731772] (scoutbot_description) StdoutLine: {'line': b'Copying ../../build/scoutbot_description/scoutbot_description.egg-info to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description-0.0.0-py3.10.egg-info\n'}
+[1.733689] (-) TimerEvent: {}
+[1.739905] (scoutbot_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.753865] (scoutbot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.790632] (scoutbot_description) StdoutLine: {'line': b'Installing joint_sim script to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/scoutbot_description\n'}
+[1.790845] (scoutbot_description) StdoutLine: {'line': b"writing list of installed files to '/home/bbhanda/scoutbot_ws/build/scoutbot_description/install.log'\n"}
+[1.818433] (scoutbot_description) CommandEnded: {'returncode': 0}
+[1.837161] (-) TimerEvent: {}
+[1.839447] (scoutbot_description) JobEnded: {'identifier': 'scoutbot_description', 'rc': 0}
+[1.938824] (-) TimerEvent: {}
+[2.040932] (-) TimerEvent: {}
+[2.142112] (-) TimerEvent: {}
+[2.245652] (-) TimerEvent: {}
+[2.347747] (-) TimerEvent: {}
+[2.484039] (-) TimerEvent: {}
+[2.549609] (scoutbot_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.587195] (-) TimerEvent: {}
+[2.603606] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.689185] (-) TimerEvent: {}
+[2.798753] (-) TimerEvent: {}
+[2.834006] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.841032] (scoutbot_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.845084] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.860273] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.875136] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.899453] (-) TimerEvent: {}
+[3.004790] (-) TimerEvent: {}
+[3.071380] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.082032] (scoutbot_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.083019] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.083325] (scoutbot_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.105027] (-) TimerEvent: {}
+[3.174313] (scoutbot_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.205200] (-) TimerEvent: {}
+[3.306141] (-) TimerEvent: {}
+[3.407794] (-) TimerEvent: {}
+[3.509001] (-) TimerEvent: {}
+[3.610159] (-) TimerEvent: {}
+[3.612359] (scoutbot_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.710688] (-) TimerEvent: {}
+[3.811922] (-) TimerEvent: {}
+[3.913098] (-) TimerEvent: {}
+[4.017643] (-) TimerEvent: {}
+[4.120768] (-) TimerEvent: {}
+[4.221690] (scoutbot_sim) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[4.221930] (-) TimerEvent: {}
+[4.322758] (-) TimerEvent: {}
+[4.424787] (-) TimerEvent: {}
+[4.514477] (scoutbot_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.526258] (-) TimerEvent: {}
+[4.563166] (scoutbot_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.590718] (scoutbot_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.626998] (-) TimerEvent: {}
+[4.654068] (scoutbot_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.729792] (-) TimerEvent: {}
+[4.741832] (scoutbot_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.832386] (-) TimerEvent: {}
+[4.933158] (-) TimerEvent: {}
+[4.974416] (scoutbot_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.989226] (scoutbot_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.035784] (-) TimerEvent: {}
+[5.137787] (-) TimerEvent: {}
+[5.238759] (-) TimerEvent: {}
+[5.340724] (-) TimerEvent: {}
+[5.426876] (scoutbot_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.443851] (-) TimerEvent: {}
+[5.488200] (scoutbot_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.529067] (scoutbot_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.546369] (-) TimerEvent: {}
+[5.616077] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.649982] (-) TimerEvent: {}
+[5.751768] (-) TimerEvent: {}
+[5.850024] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.850182] (scoutbot_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.852455] (-) TimerEvent: {}
+[5.955565] (-) TimerEvent: {}
+[6.017362] (scoutbot_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.017651] (scoutbot_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.056676] (-) TimerEvent: {}
+[6.157912] (-) TimerEvent: {}
+[6.258471] (-) TimerEvent: {}
+[6.328694] (scoutbot_sim) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.346073] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.360624] (-) TimerEvent: {}
+[6.408938] (scoutbot_sim) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.461331] (-) TimerEvent: {}
+[6.564993] (-) TimerEvent: {}
+[6.666262] (-) TimerEvent: {}
+[6.767295] (-) TimerEvent: {}
+[6.868794] (-) TimerEvent: {}
+[6.875489] (scoutbot_sim) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.969777] (-) TimerEvent: {}
+[6.997498] (scoutbot_sim) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.070579] (-) TimerEvent: {}
+[7.173437] (-) TimerEvent: {}
+[7.187571] (scoutbot_sim) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.274990] (-) TimerEvent: {}
+[7.377113] (-) TimerEvent: {}
+[7.380129] (scoutbot_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[7.480042] (-) TimerEvent: {}
+[7.509653] (scoutbot_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[7.561976] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.581666] (-) TimerEvent: {}
+[7.658433] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[7.668355] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[7.669218] (scoutbot_sim) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[7.675712] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[7.682317] (-) TimerEvent: {}
+[7.700446] (scoutbot_sim) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[7.783781] (-) TimerEvent: {}
+[7.797813] (scoutbot_sim) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.823141] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[7.833957] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[7.840787] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[7.847209] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[7.861801] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[7.862756] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[7.868547] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[7.868915] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[7.873763] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[7.873992] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[7.878791] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[7.878963] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[7.883295] (scoutbot_sim) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[7.883910] (-) TimerEvent: {}
+[7.984241] (-) TimerEvent: {}
+[7.993819] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.024426] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[8.025241] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[8.078100] (scoutbot_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[8.084739] (-) TimerEvent: {}
+[8.089774] (scoutbot_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[8.095717] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[8.185053] (-) TimerEvent: {}
+[8.230376] (scoutbot_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[8.285219] (-) TimerEvent: {}
+[8.297166] (scoutbot_sim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[8.330959] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[8.376739] (scoutbot_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[8.385317] (-) TimerEvent: {}
+[8.440419] (scoutbot_sim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[8.455788] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.456051] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[8.474295] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.482074] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[8.485941] (-) TimerEvent: {}
+[8.546080] (scoutbot_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[8.586182] (-) TimerEvent: {}
+[8.613592] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[8.655288] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[8.656505] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[8.657276] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.660422] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.662781] (scoutbot_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[8.687666] (-) TimerEvent: {}
+[8.696912] (scoutbot_sim) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[8.699809] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[8.704352] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[8.705190] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[8.705348] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.714932] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[8.715898] (scoutbot_sim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[8.789113] (-) TimerEvent: {}
+[8.890770] (-) TimerEvent: {}
+[8.900442] (scoutbot_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[8.964899] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[8.991420] (-) TimerEvent: {}
+[9.001689] (scoutbot_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[9.084996] (scoutbot_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[9.092351] (-) TimerEvent: {}
+[9.103369] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[9.138925] (scoutbot_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[9.192846] (-) TimerEvent: {}
+[9.206004] (scoutbot_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[9.206217] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.206804] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.207518] (scoutbot_sim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.262385] (scoutbot_sim) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[9.262620] (scoutbot_sim) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[9.290947] (scoutbot_sim) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[9.293800] (-) TimerEvent: {}
+[9.395298] (-) TimerEvent: {}
+[9.484210] (scoutbot_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.491390] (scoutbot_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[9.496029] (-) TimerEvent: {}
+[9.497033] (scoutbot_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/bbhanda/scoutbot_ws/build/scoutbot_sim\n'}
+[9.512222] (scoutbot_sim) CommandEnded: {'returncode': 0}
+[9.513073] (scoutbot_sim) JobProgress: {'identifier': 'scoutbot_sim', 'progress': 'build'}
+[9.513161] (scoutbot_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bbhanda/scoutbot_ws/build/scoutbot_sim', '--', '-j8', '-l8'], 'cwd': '/home/bbhanda/scoutbot_ws/build/scoutbot_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bbhanda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bbhanda'), ('OLDPWD', '/home/bbhanda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2674'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bbhanda/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bbhanda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bbhanda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2644,unix/Ubuntu22:/tmp/.ICE-unix/2644'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0382ac8_478e_4b16_8c34_c306e935cc0b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OK2982'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bbhanda/scoutbot_ws/build/scoutbot_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bbhanda/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble')]), 'shell': False}
+[9.583956] (scoutbot_sim) CommandEnded: {'returncode': 0}
+[9.585597] (scoutbot_sim) JobProgress: {'identifier': 'scoutbot_sim', 'progress': 'install'}
+[9.596352] (-) TimerEvent: {}
+[9.609343] (scoutbot_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bbhanda/scoutbot_ws/build/scoutbot_sim'], 'cwd': '/home/bbhanda/scoutbot_ws/build/scoutbot_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bbhanda'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bbhanda'), ('OLDPWD', '/home/bbhanda'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2674'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bbhanda/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bbhanda'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bbhanda'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2644,unix/Ubuntu22:/tmp/.ICE-unix/2644'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0382ac8_478e_4b16_8c34_c306e935cc0b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OK2982'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bbhanda/scoutbot_ws/build/scoutbot_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bbhanda/install/scoutbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bbhanda/install/scoutbot_description:/opt/ros/humble')]), 'shell': False}
+[9.616840] (scoutbot_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.617037] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch\n'}
+[9.617106] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch/spawn_arm.launch.py\n'}
+[9.617160] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch/gazebo.launch.py\n'}
+[9.617209] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds\n'}
+[9.617257] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds/basic_world.world\n'}
+[9.636981] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds/empty_worlds.world\n'}
+[9.642914] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/package_run_dependencies/scoutbot_sim\n'}
+[9.643422] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/parent_prefix_path/scoutbot_sim\n'}
+[9.643565] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.sh\n'}
+[9.655327] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.dsv\n'}
+[9.655929] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/path.sh\n'}
+[9.658013] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/path.dsv\n'}
+[9.658208] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.bash\n'}
+[9.658268] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.sh\n'}
+[9.658321] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.zsh\n'}
+[9.658369] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.dsv\n'}
+[9.658416] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/package.dsv\n'}
+[9.658462] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/packages/scoutbot_sim\n'}
+[9.658581] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig.cmake\n'}
+[9.658971] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig-version.cmake\n'}
+[9.659435] (scoutbot_sim) StdoutLine: {'line': b'-- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/package.xml\n'}
+[9.663143] (scoutbot_sim) CommandEnded: {'returncode': 0}
+[9.687165] (scoutbot_sim) JobEnded: {'identifier': 'scoutbot_sim', 'rc': 0}
+[9.688817] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+[0.869s] Invoking command in '/home/bbhanda/scoutbot_ws/build/scoutbot_description': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/scoutbot_description/build --no-deps symlink_data --force
+[1.253s] running develop
+[1.483s] running egg_info
+[1.483s] writing scoutbot_description.egg-info/PKG-INFO
+[1.483s] writing dependency_links to scoutbot_description.egg-info/dependency_links.txt
+[1.511s] writing entry points to scoutbot_description.egg-info/entry_points.txt
+[1.511s] writing requirements to scoutbot_description.egg-info/requires.txt
+[1.511s] writing top-level names to scoutbot_description.egg-info/top_level.txt
+[1.513s] reading manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+[1.529s] writing manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+[1.529s] running build_ext
+[1.529s] Creating /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot-description.egg-link (link to .)
+[1.529s] Installing joint_sim script to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/scoutbot_description
+[1.532s] 
+[1.533s] Installed /home/bbhanda/scoutbot_ws/build/scoutbot_description
+[1.533s] running symlink_data
+[1.534s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/resource/scoutbot_description -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/ament_index/resource_index/packages
+[1.534s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/package.xml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description
+[1.534s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/launch/display.launch.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/launch
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/urdf/arm.urdf.xacro -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/urdf
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Joint_1.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Base_Cover.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Base.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_4-Joint_5.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_2-Joint_3.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_1-Joint_2.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.538s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_3-Joint_4.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.539s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/meshes/Link_5-Joint_6.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+[1.545s] symbolically linking /home/bbhanda/scoutbot_ws/build/scoutbot_description/config/controller.yaml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/config
+[1.641s] Invoked command in '/home/bbhanda/scoutbot_ws/build/scoutbot_description' returned '0': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/scoutbot_description/build --no-deps symlink_data --force

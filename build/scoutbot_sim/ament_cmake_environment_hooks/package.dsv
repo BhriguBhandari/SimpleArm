@@ -1,0 +1,4 @@
+source;share/scoutbot_sim/local_setup.bash
+source;share/scoutbot_sim/local_setup.dsv
+source;share/scoutbot_sim/local_setup.sh
+source;share/scoutbot_sim/local_setup.zsh

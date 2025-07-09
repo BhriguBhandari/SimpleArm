@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing scoutbot_description.egg-info/PKG-INFO
+writing dependency_links to scoutbot_description.egg-info/dependency_links.txt
+writing entry points to scoutbot_description.egg-info/entry_points.txt
+writing requirements to scoutbot_description.egg-info/requires.txt
+writing top-level names to scoutbot_description.egg-info/top_level.txt
+reading manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+writing manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bbhanda/scoutbot_ws/src/install/scoutbot_description/lib/python3.10/site-packages/scoutbot-description.egg-link (link to .)
+Installing joint_sim script to /home/bbhanda/scoutbot_ws/src/install/scoutbot_description/lib/scoutbot_description
+
+Installed /home/bbhanda/scoutbot_ws/src/build/scoutbot_description
+running symlink_data

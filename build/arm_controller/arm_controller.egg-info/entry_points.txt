@@ -1,0 +1,7 @@
+[console_scripts]
+joint_publisher = arm_controller.joint_publisher:main
+joint_subscriber = arm_controller.joint_subscriber:main
+
+[launch]
+display = launch.display.generate_launch_description
+

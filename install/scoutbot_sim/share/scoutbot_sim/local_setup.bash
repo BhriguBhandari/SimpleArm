@@ -1,0 +1,1 @@
+/home/bbhanda/scoutbot_ws/build/scoutbot_sim/ament_cmake_environment_hooks/local_setup.bash

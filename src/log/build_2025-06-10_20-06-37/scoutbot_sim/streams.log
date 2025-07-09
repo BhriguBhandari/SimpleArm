@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim -- -j8 -l8
+[0.107s] Invoked command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim -- -j8 -l8
+[0.117s] Invoking command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim
+[0.135s] -- Install configuration: ""
+[0.135s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/$(PROJECT_NAME)/launch
+[0.135s] -- Installing: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/$(PROJECT_NAME)/launch/gazebo.launch.py
+[0.135s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/$(PROJECT_NAME)/worlds
+[0.135s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/$(PROJECT_NAME)/worlds/basic_world.world
+[0.135s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/$(PROJECT_NAME)/worlds/empty_worlds.world
+[0.135s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/ament_index/resource_index/package_run_dependencies/scoutbot_sim
+[0.136s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/ament_index/resource_index/parent_prefix_path/scoutbot_sim
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/environment/path.sh
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/environment/path.dsv
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/local_setup.bash
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/local_setup.sh
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/local_setup.zsh
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/local_setup.dsv
+[0.137s] -- Installing: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.dsv
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/ament_index/resource_index/packages/scoutbot_sim
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig.cmake
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig-version.cmake
+[0.137s] -- Up-to-date: /home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.xml
+[0.152s] Invoked command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim

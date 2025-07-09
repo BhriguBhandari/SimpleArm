@@ -1,0 +1,17 @@
+[0.658s] Invoking command in '/home/bbhanda/scoutbot_ws/build/scoutbot_description': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/scoutbot_description/build --no-deps symlink_data
+[0.933s] running develop
+[1.085s] running egg_info
+[1.086s] writing scoutbot_description.egg-info/PKG-INFO
+[1.086s] writing dependency_links to scoutbot_description.egg-info/dependency_links.txt
+[1.086s] writing entry points to scoutbot_description.egg-info/entry_points.txt
+[1.087s] writing requirements to scoutbot_description.egg-info/requires.txt
+[1.087s] writing top-level names to scoutbot_description.egg-info/top_level.txt
+[1.089s] reading manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+[1.090s] writing manifest file 'scoutbot_description.egg-info/SOURCES.txt'
+[1.092s] running build_ext
+[1.093s] Creating /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot-description.egg-link (link to .)
+[1.099s] Installing joint_sim script to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/scoutbot_description
+[1.099s] 
+[1.099s] Installed /home/bbhanda/scoutbot_ws/build/scoutbot_description
+[1.100s] running symlink_data
+[1.130s] Invoked command in '/home/bbhanda/scoutbot_ws/build/scoutbot_description' returned '0': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/scoutbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/scoutbot_description/build --no-deps symlink_data

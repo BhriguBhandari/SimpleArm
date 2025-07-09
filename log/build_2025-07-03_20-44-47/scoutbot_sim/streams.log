@@ -1,0 +1,26 @@
+[0.593s] Invoking command in '/home/bbhanda/scoutbot_ws/build/scoutbot_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/build/scoutbot_sim -- -j8 -l8
+[2.255s] Invoked command in '/home/bbhanda/scoutbot_ws/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/build/scoutbot_sim -- -j8 -l8
+[2.271s] Invoking command in '/home/bbhanda/scoutbot_ws/build/scoutbot_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/build/scoutbot_sim
+[2.298s] -- Install configuration: ""
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch/spawn_arm.launch.py
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/launch/gazebo.launch.py
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds/basic_world.world
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/worlds/empty_worlds.world
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/package_run_dependencies/scoutbot_sim
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/parent_prefix_path/scoutbot_sim
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.sh
+[2.302s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/ament_prefix_path.dsv
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/path.sh
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/environment/path.dsv
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.bash
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.sh
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.zsh
+[2.303s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/local_setup.dsv
+[2.303s] -- Installing: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/package.dsv
+[2.310s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/ament_index/resource_index/packages/scoutbot_sim
+[2.311s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig.cmake
+[2.311s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/cmake/scoutbot_simConfig-version.cmake
+[2.311s] -- Up-to-date: /home/bbhanda/scoutbot_ws/install/scoutbot_sim/share/scoutbot_sim/package.xml
+[2.314s] Invoked command in '/home/bbhanda/scoutbot_ws/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/build/scoutbot_sim

@@ -1,0 +1,20 @@
+[1.060s] Invoking command in '/home/bbhanda/scoutbot_ws/build/arm_controller': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/arm_controller/build --no-deps symlink_data --force
+[1.331s] running develop
+[1.470s] running egg_info
+[1.470s] writing arm_controller.egg-info/PKG-INFO
+[1.476s] writing dependency_links to arm_controller.egg-info/dependency_links.txt
+[1.476s] writing entry points to arm_controller.egg-info/entry_points.txt
+[1.476s] writing requirements to arm_controller.egg-info/requires.txt
+[1.476s] writing top-level names to arm_controller.egg-info/top_level.txt
+[1.490s] reading manifest file 'arm_controller.egg-info/SOURCES.txt'
+[1.490s] writing manifest file 'arm_controller.egg-info/SOURCES.txt'
+[1.497s] running build_ext
+[1.497s] Creating /home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages/arm-controller.egg-link (link to .)
+[1.497s] Installing joint_publisher script to /home/bbhanda/scoutbot_ws/install/arm_controller/lib/arm_controller
+[1.498s] Installing joint_subscriber script to /home/bbhanda/scoutbot_ws/install/arm_controller/lib/arm_controller
+[1.498s] 
+[1.498s] Installed /home/bbhanda/scoutbot_ws/build/arm_controller
+[1.498s] running symlink_data
+[1.498s] symbolically linking /home/bbhanda/scoutbot_ws/build/arm_controller/resource/arm_controller -> /home/bbhanda/scoutbot_ws/install/arm_controller/share/ament_index/resource_index/packages
+[1.498s] symbolically linking /home/bbhanda/scoutbot_ws/build/arm_controller/package.xml -> /home/bbhanda/scoutbot_ws/install/arm_controller/share/arm_controller
+[1.589s] Invoked command in '/home/bbhanda/scoutbot_ws/build/arm_controller' returned '0': PYTHONPATH=/home/bbhanda/scoutbot_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bbhanda/scoutbot_ws/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bbhanda/scoutbot_ws/build/arm_controller/build --no-deps symlink_data --force

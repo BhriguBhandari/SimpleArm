@@ -1,0 +1,148 @@
+[0.927s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'scoutbot_sim']
+[0.927s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['scoutbot_sim'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70d192e2b730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70d192fd8400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70d192fd8400>>)
+[3.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.705s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bbhanda/scoutbot_ws/src'
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extension 'ignore'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extension 'ignore_ament_install'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extensions ['colcon_pkg']
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extension 'colcon_pkg'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extensions ['colcon_meta']
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extension 'colcon_meta'
+[3.733s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extensions ['ros']
+[3.733s] Level 1:colcon.colcon_core.package_identification:_identify(arm_controller) by extension 'ros'
+[3.762s] DEBUG:colcon.colcon_core.package_identification:Package 'arm_controller' with type 'ros.ament_python' and name 'arm_controller'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extension 'ignore'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extension 'ignore_ament_install'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extensions ['colcon_pkg']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extension 'colcon_pkg'
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extensions ['colcon_meta']
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extension 'colcon_meta'
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extensions ['ros']
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_description) by extension 'ros'
+[3.777s] DEBUG:colcon.colcon_core.package_identification:Package 'scoutbot_description' with type 'ros.ament_python' and name 'scoutbot_description'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extensions ['ignore', 'ignore_ament_install']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extension 'ignore'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extension 'ignore_ament_install'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extensions ['colcon_pkg']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extension 'colcon_pkg'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extensions ['colcon_meta']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extension 'colcon_meta'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extensions ['ros']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(scoutbot_sim) by extension 'ros'
+[3.778s] DEBUG:colcon.colcon_core.package_identification:Package 'scoutbot_sim' with type 'ros.ament_cmake' and name 'scoutbot_sim'
+[3.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.925s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arm_controller' in 'arm_controller'
+[3.925s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'scoutbot_description' in 'scoutbot_description'
+[3.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.943s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bbhanda/scoutbot_ws/src/install
+[3.944s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bbhanda/install
+[3.965s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[3.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_args' from command line to 'None'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_target' from command line to 'None'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_clean_first' from command line to 'False'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'cmake_force_configure' from command line to 'False'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'ament_cmake_args' from command line to 'None'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[5.896s] Level 5:colcon.colcon_core.verb:set package 'scoutbot_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.896s] DEBUG:colcon.colcon_core.verb:Building package 'scoutbot_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim', 'merge_install': False, 'path': '/home/bbhanda/scoutbot_ws/src/scoutbot_sim', 'symlink_install': False, 'test_result_base': None}
+[5.896s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.898s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bbhanda/scoutbot_ws/src/scoutbot_sim' with build type 'ament_cmake'
+[5.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bbhanda/scoutbot_ws/src/scoutbot_sim'
+[5.940s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim -- -j8 -l8
+[6.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --build /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim -- -j8 -l8
+[6.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim
+[6.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scoutbot_sim)
+[6.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bbhanda/scoutbot_ws/src/build/scoutbot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bbhanda/install/scoutbot_description:/opt/ros/humble /usr/bin/cmake --install /home/bbhanda/scoutbot_ws/src/build/scoutbot_sim
+[6.173s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim' for CMake module files
+[6.176s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim' for CMake config files
+[6.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('scoutbot_sim', 'cmake_prefix_path')
+[6.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.ps1'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.dsv'
+[6.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.sh'
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/bin'
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/lib/pkgconfig/scoutbot_sim.pc'
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/lib/python3.10/site-packages'
+[6.183s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/bin'
+[6.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.ps1'
+[6.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.dsv'
+[6.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.sh'
+[6.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.bash'
+[6.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.zsh'
+[6.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/colcon-core/packages/scoutbot_sim)
+[6.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scoutbot_sim)
+[6.204s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim' for CMake module files
+[6.204s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim' for CMake config files
+[6.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('scoutbot_sim', 'cmake_prefix_path')
+[6.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.ps1'
+[6.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.dsv'
+[6.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/hook/cmake_prefix_path.sh'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/bin'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/lib/pkgconfig/scoutbot_sim.pc'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/lib/python3.10/site-packages'
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/bin'
+[6.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.ps1'
+[6.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.dsv'
+[6.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.sh'
+[6.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.bash'
+[6.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/scoutbot_sim/package.zsh'
+[6.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bbhanda/scoutbot_ws/src/install/scoutbot_sim/share/colcon-core/packages/scoutbot_sim)
+[6.212s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.213s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.232s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.259s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bbhanda/scoutbot_ws/src/install/local_setup.ps1'
+[6.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bbhanda/scoutbot_ws/src/install/_local_setup_util_ps1.py'
+[6.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bbhanda/scoutbot_ws/src/install/setup.ps1'
+[6.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bbhanda/scoutbot_ws/src/install/local_setup.sh'
+[6.273s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bbhanda/scoutbot_ws/src/install/_local_setup_util_sh.py'
+[6.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bbhanda/scoutbot_ws/src/install/setup.sh'
+[6.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bbhanda/scoutbot_ws/src/install/local_setup.bash'
+[6.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bbhanda/scoutbot_ws/src/install/setup.bash'
+[6.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bbhanda/scoutbot_ws/src/install/local_setup.zsh'
+[6.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bbhanda/scoutbot_ws/src/install/setup.zsh'

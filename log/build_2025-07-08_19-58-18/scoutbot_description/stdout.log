@@ -1,0 +1,39 @@
+running develop
+Removing /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot-description.egg-link (link to .)
+running egg_info
+writing ../../build/scoutbot_description/scoutbot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/scoutbot_description/scoutbot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/scoutbot_description/scoutbot_description.egg-info/entry_points.txt
+writing requirements to ../../build/scoutbot_description/scoutbot_description.egg-info/requires.txt
+writing top-level names to ../../build/scoutbot_description/scoutbot_description.egg-info/top_level.txt
+reading manifest file '../../build/scoutbot_description/scoutbot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/scoutbot_description/scoutbot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description
+copying /home/bbhanda/scoutbot_ws/build/scoutbot_description/build/lib/scoutbot_description/__init__.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description
+copying /home/bbhanda/scoutbot_ws/build/scoutbot_description/build/lib/scoutbot_description/joint_sim.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description
+byte-compiling /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description/joint_sim.py to joint_sim.cpython-310.pyc
+running install_data
+copying resource/scoutbot_description -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description
+copying launch/display.launch.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/launch
+copying launch/gazebo.launch.py -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/launch
+copying urdf/arm.urdf.xacro -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/urdf
+copying meshes/Joint_1.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Base_Cover.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Base.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Link_4-Joint_5.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Link_2-Joint_3.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Link_1-Joint_2.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Link_3-Joint_4.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying meshes/Link_5-Joint_6.stl -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/meshes
+copying config/controller.yaml -> /home/bbhanda/scoutbot_ws/install/scoutbot_description/share/scoutbot_description/config
+running install_egg_info
+Copying ../../build/scoutbot_description/scoutbot_description.egg-info to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/python3.10/site-packages/scoutbot_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joint_sim script to /home/bbhanda/scoutbot_ws/install/scoutbot_description/lib/scoutbot_description
+writing list of installed files to '/home/bbhanda/scoutbot_ws/build/scoutbot_description/install.log'
