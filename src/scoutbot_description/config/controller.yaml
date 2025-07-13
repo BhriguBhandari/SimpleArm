@@ -6,9 +6,14 @@ controller_manager:
     arm_position_controller:
       type: position_controllers/JointGroupPositionController
       joints:
-        - joint1
-        - joint2
-        - joint3
-        - joint4 
-        - joint5
-        - joint6
+        - Joint_2
+        - Joint_3
+        - Joint_4
+        - Joint_5
+      command_interfaces: 
+        - position 
+      state_interfaces: 
+        - position 
+        - velocity
+      state_publish_rate: 50 
+      action_monitor_rate: 20

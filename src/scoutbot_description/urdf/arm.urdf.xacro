@@ -11,6 +11,7 @@
   <!--Base Link-->
 
   <gazebo>
+    <static> true </static> 
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
   </gazebo>
 
@@ -44,7 +45,7 @@
     <visual> 
       <origin xyz="0 0 0" rpy="${1.5708} 0 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Base.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Base.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -54,7 +55,7 @@
     <visual> 
       <origin xyz="0 0 0" rpy="${1.5708} 0 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Base_Cover.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Base_Cover.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -86,7 +87,7 @@
     <visual> 
       <origin xyz="0 0 0" rpy="${-1.5708} 0 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Joint_1.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Joint_1.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -118,7 +119,7 @@
     <visual> 
       <origin xyz="0 0 0" rpy="${1.5708} 0 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Link_1-Joint_2.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Link_1-Joint_2.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -168,7 +169,7 @@
     <visual> 
       <origin xyz="-0.5 0 0" rpy="0 1.5708 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Link_2-Joint_3.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Link_2-Joint_3.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -218,7 +219,7 @@
     <visual> 
       <origin xyz="-0.70 -0.20 0.1" rpy="0 1.7508 0"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Link_3-Joint_4.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Link_3-Joint_4.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -268,7 +269,7 @@
     <visual> 
       <origin xyz="-0.4 0 0" rpy="0.2 0 1.5708"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Link_4-Joint_5.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Link_4-Joint_5.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
@@ -317,9 +318,9 @@
 <!--Joint_6-->
   <link name="Joint_6"> 
     <visual> 
-      <origin xyz="0 0 0" rpy="0 0 0"/> 
+      <origin xyz="-0.4 0 0" rpy="0.005 0 -1.5708"/> 
       <geometry> 
-        <mesh filename="package://scoutbot_description/meshes/Link_5-Joint_6.stl" scale="${mesh_scale}"/> 
+        <mesh filename="/home/bbhanda/scoutbot_ws/src/scoutbot_description/meshes/Link_5-Joint_6.stl" scale="${mesh_scale}"/> 
       </geometry> 
       <material name="grey"/> 
     </visual> 
